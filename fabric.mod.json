@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "creativetoggle",
+  "version": "1.1.0",
+  "name": "Creative Menu Toggle",
+  "description": "Toggle ONLY the creative inventory in survival",
+  "authors": ["ChatGPT"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.example.creativetoggle.CreativeToggleClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
